@@ -11,8 +11,8 @@ html {
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-color: #f4f4f4;
+    color: #ffffff;
+    background-color: #2b2a2c;
 }
 
 .container {
@@ -21,10 +21,9 @@ body {
     padding: 0 20px;
 }
 
-/* Header et Navigation */
 header {
-    background-color: #2c3e50;
-    color: white;
+    background-color: #4e4a59;
+    color: #ffffff;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -52,19 +51,19 @@ header {
 }
 
 .nav-links a {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
-    color: #3498db;
+    color: #4a8a59;
 }
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #0e2074 0%, #006eff 100%);
-    color: white;
+    background: linear-gradient(135deg, #4a8a59 0%, #90fda9 100%);
+    color: #4e4a59;
     padding: 120px 0;
     text-align: center;
 }
@@ -81,7 +80,7 @@ header {
 /* Sections */
 .section {
     padding: 80px 0;
-    background-color: white;
+    background-color: #4e4a59;
     margin: 2rem 0;
 }
 
@@ -89,7 +88,7 @@ header {
     font-size: 2rem;
     margin-bottom: 2rem;
     text-align: center;
-    color: #2c3e50;
+    color: #ffffff;
 }
 
 /* Services Grid */
@@ -101,7 +100,7 @@ header {
 }
 
 .service-card {
-    background-color: #f8f9fa;
+    background-color: #4e4a59;
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -154,16 +153,16 @@ header {
 }
 
 .adresse.mail h3 {
-    color: #006eff;
+    color: #90fda9;
     font-size: 1.2rem;
     margin-top: 0.5rem;
-    border : 6px solid #1100ff;
+    border : 6px solid #27472e;
     border-radius: 8px;
     padding : 10px;
 }
 .adresse.mail h3:hover {
-    color: #3498db;
-    border : 6px solid #3498db;
+    color: #90fda9;
+    border : 6px solid #4a8a59;
 }
 
 .gallery {
@@ -189,7 +188,7 @@ header {
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border : 6px solid #430069;
+    border : 6px solid #90fda9;
     border-radius: 8px;
     margin-bottom: 1rem;
 }
@@ -201,7 +200,7 @@ header {
 
 .gallery-item p {
     font-weight: 500;
-    color: #2c3e50;
+    color: #ffffff;
 }
 
 .gallery2 {
@@ -235,7 +234,7 @@ header {
 
 .gallery-item3 p {
     font-weight: 500;
-    color: #2c3e50;
+    color: #ffffff;
 }
 
 .gallery3 {
@@ -244,6 +243,93 @@ header {
     margin: 2rem auto;
     align-items: center;
     text-align: center;
+}
+
+.flyer-1 {
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+}
+
+.flyer-2 {
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+}
+
+.flyer-1 img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border : 6px solid #90fda9;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.flyer-1 img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.flyer-2 img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border : 6px solid #90fda9;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.flyer-2 img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.flyer {
+    padding: 2rem;
+    text-align: center;
+}
+
+.flyer h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+.flyer p {
+    margin-bottom: 2rem;
+}
+
+.flyer-images {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin: 2rem auto;
+}
+
+.flyer-1,
+.flyer-2 {
+    flex: 0 1 calc(50% - 1rem);
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    align-items: center;
+    border: #90fda9 solid 6px;
+    border-radius: 5px;
 }
 
 .presse-gallery1 {
@@ -264,7 +350,7 @@ header {
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border : 6px solid #0032bb;
+    border : 6px solid #90fda9;
     border-radius: 8px;
     margin-bottom: 1rem;
 }
@@ -280,7 +366,7 @@ header {
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border : 6px solid #0032bb;
+    border : 6px solid #90fda9;
     border-radius: 8px;
     margin-bottom: 1rem;
 }
@@ -298,7 +384,7 @@ header {
 .presse h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: #2c3e50;
+    color: #ffffff;
 }
 
 .presse p {
@@ -322,13 +408,14 @@ header {
     align-items: center;
 }
 
-.video-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-    max-width: 100%;
-    align-items: center;
-    border: #0032bb solid 6px;
-    border-radius: 5px;
+.p {
+    color: #ffffff;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.h3 {
+    color: #90fda9;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
 }
